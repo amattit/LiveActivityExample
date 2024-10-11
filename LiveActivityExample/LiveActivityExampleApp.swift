@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import ActivityKit
 
 @main
 struct LiveActivityExampleApp: App {
@@ -30,3 +31,5 @@ struct LiveActivityExampleApp: App {
         .modelContainer(sharedModelContainer)
     }
 }
+
+
